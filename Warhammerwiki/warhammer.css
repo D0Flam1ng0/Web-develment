@@ -1,0 +1,11 @@
+body {
+    /* Create a linear gradient from top to bottom */
+    background: linear-gradient(to right, #341539, #0000FF);
+    /* Ensure the background covers the entire viewport */
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1, h2{
+    
+}
