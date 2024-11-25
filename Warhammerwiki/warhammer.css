@@ -1,11 +1,47 @@
 body {
-    /* Create a linear gradient from top to bottom */
-    background: linear-gradient(to right, #341539, #0000FF);
-    /* Ensure the background covers the entire viewport */
-    min-height: 100vh;
     margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    color: #333;
+    
+}
+h2, h3{
+    font-family: var(--heading-font);
+    color: #907DF5;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-h1, h2{
-    
+/* Grid Items */
+.grid-item {
+    text-align: center;
+    background-color: #341539;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Image Styling */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Text Styling */
+.grid-item p {
+    margin-top: 10px;
+    color: #333;
 }
