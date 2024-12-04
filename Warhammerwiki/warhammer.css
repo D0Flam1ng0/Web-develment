@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: rgb(78, 7, 170);
     line-height: 1.6;
-    color: #333;
+    color: rgb(135, 167, 232);
     
 }
 h2, h3{
