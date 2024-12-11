@@ -7,6 +7,13 @@ body {
     color: rgb(135, 167, 232);
     
 }
+.header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background-color: rgb(78, 7, 170);
+    color: #f1f1f1;
+  }
 h2, h3{
     font-family: var(--heading-font);
     color: #907DF5;
