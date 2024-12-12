@@ -1,3 +1,6 @@
+body{
+    background-color: #62c182;
+}
 .grid{ 
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 2fr));
@@ -5,9 +8,6 @@
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
-}
-body{
-    background-color: #62c182;
 }
 .header {
     position: sticky;
