@@ -6,9 +6,6 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-body{
-    background-color: #62c182;
-}
 .header {
     position: sticky;
     top: 0;
